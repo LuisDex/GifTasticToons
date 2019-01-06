@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Giphtastic!</title>
+    <title>Toon Town Gifs!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
@@ -12,16 +12,28 @@
 </head>
 <body>
     <div class="row">
+        <div class="col-sm-8 offset-sm-2 text-center">
+            <h1>Welcome to Toon Town Gifs!</h1>
+            <p>Press any of the buttons below to call up some GIFs from some of our best known citizens! </p>
+                <p> Click on a gif to see them move, click on them again to stop their crazy moves!</p>
+        </div>
+    </div>
+    <div class="row">
     <div class="col-sm-8 offset-sm-2">
     <div id="buttonArea"></div>
     </div>
     </div>
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2 text-center">
+    <h2>Did we miss one of your favorite toons? Use the following form to add them to our list!</h2>
     <form id="add-a-toon">
         <label for="toonLabel">Give it a try! Add a toon!</label>
         <input type="text" id="addToon">
         <br>
         <input id="newToon" type="submit" value="Go to ToonTown!">
       </form>
+      </div>
+    </div>
      <div class="row"> 
          <div class="col-sm-12">
     <div id="gifArea"></div>
