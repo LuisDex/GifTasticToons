@@ -1,0 +1,13 @@
+.mybtn {
+ margin: 5px;
+}
+
+#add-a-toon{
+    margin: 5px;
+}
+
+/* Used to make sure gifs are next to each other */
+.imgDiv{
+    float: left;
+    margin: 10px;
+}
